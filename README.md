@@ -32,6 +32,12 @@ of colloidal suspensions under shear flow.
 
 ---
 
+## Representative result
+
+![Representative result](results/figures/overview.png)
+
+---
+
 ## Computational workflow
 
 ```

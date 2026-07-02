@@ -94,6 +94,46 @@ Associated publication.
 
 ---
 
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ZacconeAlessio/High-Density-Colloids-under-Shear.git
+```
+
+Install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+The notebooks are intended to be explored in the following order:
+
+1. `Average_Compressional_Extensional.ipynb`
+2. `IAgrid_to_HNCgrid.ipynb`
+3. `Percus-Yevick_effective_HSunit.ipynb`
+4. `HNC.ipynb`
+5. `MHNC.ipynb`
+
+The Mathematica notebooks in `notebooks/analytic_solutions/` provide the analytical derivations underlying the integral-equation calculations.
+
+---
+
+## Requirements
+
+The Python notebooks were developed using standard scientific Python packages.
+
+Install the required packages with
+
+```bash
+pip install -r requirements.txt
+```
+
+Mathematica notebooks require **Wolfram Mathematica** (version 12 or later recommended).
+
+---
+
 ## Companion repository
 
 The intermediate-asymptotics MATLAB implementation is available in the companion repository

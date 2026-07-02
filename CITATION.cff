@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "High-Density Colloids under Shear"
+message: "If you use this repository, please cite the associated paper."
+type: software
+
+authors:
+  - family-names: "Zaccone"
+    given-names: "Alessio"
+
+repository-code: "https://github.com/ZacconeAlessio/High-Density-Colloids-under-Shear"
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Banetta"
+      given-names: "Luca"
+    - family-names: "Leone"
+      given-names: "Francesco"
+    - family-names: "Anzivino"
+      given-names: "Carmine"
+    - family-names: "Murillo"
+      given-names: "Michael S."
+    - family-names: "Zaccone"
+      given-names: "Alessio"
+  title: "Microscopic theory for the pair correlation function of liquidlike colloidal suspensions under shear flow"
+  journal: "Physical Review E"
+  year: 2022
+  volume: 106
+  issue: 4
+  doi: "10.1103/PhysRevE.106.044610"

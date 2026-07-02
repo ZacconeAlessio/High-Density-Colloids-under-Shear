@@ -136,11 +136,11 @@ Mathematica notebooks require **Wolfram Mathematica** (version 12 or later recom
 
 ## Companion repository
 
-The intermediate-asymptotics MATLAB implementation is available in the companion repository
+The dilute-regime intermediate-asymptotics MATLAB implementation is available in the companion repository:
 
-**Colloidal-Microstructure-under-Shear**
+**https://github.com/ZacconeAlessio/Colloidal-Microstructure-under-Shear**
 
-which generates the dilute-regime pair correlation functions used here as input.
+The present repository extends that framework to finite particle concentrations using liquid-state integral-equation theory (PY, HNC and MHNC closures).
 
 ---
 

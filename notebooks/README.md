@@ -4,15 +4,14 @@ Notebooks implementing the integral-equation calculations.
 
 ---
 
-## Note on archival dependencies
+## Reproducibility
 
 The notebooks in this repository document the computational workflow developed for the published theory.
 
-Most notebooks can be executed directly using the material provided in this repository. However, a small number of notebooks refer to intermediate data files that were generated during the original research workflow and were not preserved in the archived project.
+The required input files are included in the `data/` directory:
 
-In particular, `MHNC.ipynb` references:
+- `data/IA_inputs/`
+- `data/generated_data/`
+- `data/bridge/`
 
-- `Bridge_function/bridge_eta0p443.out`
-- `g_EqGrid_deltar_0p01_Yukawa_Nohydro_Pe10_kappa2_Gamma150.in`
-
-These files are not currently available in the repository. Consequently, `MHNC.ipynb` is included primarily for methodological completeness and may require regeneration of these intermediate inputs before it can be executed end-to-end.
+The notebooks should be run from the `notebooks/` directory using the order described in the main README.

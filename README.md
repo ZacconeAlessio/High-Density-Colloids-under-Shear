@@ -48,32 +48,6 @@ Structure factor of sheared hard-sphere colloidal suspensions predicted by the i
 
 ---
 
-## Computational workflow
-
-```
-Intermediate-asymptotics solution (two-body)
-            │
-            ▼
-Angular averaging
-            │
-            ▼
-Interpolation onto uniform grid
-            │
-            ▼
-Effective potential
-            │
-            ▼
-Ornstein–Zernike equation
-            │
-            ▼
-PY / HNC / MHNC closures
-            │
-            ▼
-g(r) and S(k)
-```
-
----
-
 ## Repository structure
 
 ```
